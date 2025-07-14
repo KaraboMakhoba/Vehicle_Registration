@@ -1,13 +1,14 @@
 package com.cars;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        List<Car> cars = new ArrayList<>();
+        Collection <Car> cars = new ArrayList<Car>();
 
         int menuOption;
 
